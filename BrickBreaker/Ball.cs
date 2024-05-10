@@ -32,7 +32,16 @@ namespace BrickBreaker
             //ramping up the speed when gravity powerup is active
             if (GameScreen.gravityBool == true)
             {
-                ySpeed -= .2;
+                ySpeed -= .1;
+            }
+
+            //try to remove the possibility of the ball being stuck at the top of the screen
+            for (int i = 0; i < GameScreen.balls.Count; i++)
+            {
+                if (Math.Abs(GameScreen.balls[i].ySpeed) <= 1 && GameScreen.balls[i].y < 100)
+                {
+                    GameScreen.balls[i].ySpeed = GameScreen.r.Next(-5, -2);
+                }
             }
         }
         public bool BlockCollision(Block b)

@@ -241,4 +241,13 @@
   <data name="multiball" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\multiball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="eigthLevel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eigthLevel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ninthLevel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ninthLevel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="seventhLevel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seventhLevel.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
 </root>

@@ -1,0 +1,368 @@
+﻿<level>
+	<block>
+		<x>774</x>
+		<y>50</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>661</x>
+		<y>4</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>632</x>
+		<y>49</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>569</x>
+		<y>96</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>707</x>
+		<y>4</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>512</x>
+		<y>188</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>466</x>
+		<y>187</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>433</x>
+		<y>141</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>383</x>
+		<y>49</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>277</x>
+		<y>4</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>240</x>
+		<y>49</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>323</x>
+		<y>4</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>184</x>
+		<y>142</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>119</x>
+		<y>188</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>73</x>
+		<y>188</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>3</x>
+		<y>95</y>
+		<hp>1</hp>
+		<colour>Color [DarkRed]</colour>
+	</block>
+	<block>
+		<x>3</x>
+		<y>188</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>34</x>
+		<y>141</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>92</x>
+		<y>50</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>119</x>
+		<y>4</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>787</x>
+		<y>95</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>754</x>
+		<y>142</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>728</x>
+		<y>188</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>682</x>
+		<y>188</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>615</x>
+		<y>96</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>586</x>
+		<y>50</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>558</x>
+		<y>3</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>512</x>
+		<y>4</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>486</x>
+		<y>49</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>420</x>
+		<y>95</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>387</x>
+		<y>142</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>362</x>
+		<y>188</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>285</x>
+		<y>142</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>224</x>
+		<y>95</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>194</x>
+		<y>49</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>316</x>
+		<y>188</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>165</x>
+		<y>4</y>
+		<hp>3</hp>
+		<colour>Color [YellowGreen]</colour>
+	</block>
+	<block>
+		<x>754</x>
+		<y>4</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>728</x>
+		<y>50</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>707</x>
+		<y>95</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>661</x>
+		<y>96</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>636</x>
+		<y>142</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>610</x>
+		<y>188</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>564</x>
+		<y>188</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>538</x>
+		<y>142</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>512</x>
+		<y>96</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>466</x>
+		<y>95</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>440</x>
+		<y>49</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>415</x>
+		<y>4</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>369</x>
+		<y>4</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>337</x>
+		<y>50</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>316</x>
+		<y>96</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>270</x>
+		<y>96</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>239</x>
+		<y>142</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>211</x>
+		<y>188</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>165</x>
+		<y>188</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>138</x>
+		<y>142</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>108</x>
+		<y>96</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>62</x>
+		<y>95</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>34</x>
+		<y>49</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+	<block>
+		<x>3</x>
+		<y>3</y>
+		<hp>2</hp>
+		<colour>Color [Goldenrod]</colour>
+	</block>
+</level>

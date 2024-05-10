@@ -180,6 +180,45 @@ namespace BrickBreaker.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;level&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;623&lt;/x&gt;
+        ///		&lt;y&gt;254&lt;/y&gt;
+        ///		&lt;hp&gt;3&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [YellowGreen]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;623&lt;/x&gt;
+        ///		&lt;y&gt;208&lt;/y&gt;
+        ///		&lt;hp&gt;3&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [YellowGreen]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;623&lt;/x&gt;
+        ///		&lt;y&gt;162&lt;/y&gt;
+        ///		&lt;hp&gt;3&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [YellowGreen]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;669&lt;/x&gt;
+        ///		&lt;y&gt;70&lt;/y&gt;
+        ///		&lt;hp&gt;3&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [YellowGreen]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;623&lt;/x&gt;
+        ///		&lt;y&gt;116&lt;/y&gt;
+        ///		&lt;hp&gt;3&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [YellowGreen]&lt;/colour&gt;
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string eigthLevel {
+            get {
+                return ResourceManager.GetString("eigthLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap extended_paddle {
@@ -362,6 +401,47 @@ namespace BrickBreaker.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;level&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;774&lt;/x&gt;
+        ///		&lt;y&gt;50&lt;/y&gt;
+        ///		&lt;hp&gt;1&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [DarkRed]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;661&lt;/x&gt;
+        ///		&lt;y&gt;4&lt;/y&gt;
+        ///		&lt;hp&gt;1&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [DarkRed]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;632&lt;/x&gt;
+        ///		&lt;y&gt;49&lt;/y&gt;
+        ///		&lt;hp&gt;1&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [DarkRed]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;569&lt;/x&gt;
+        ///		&lt;y&gt;96&lt;/y&gt;
+        ///		&lt;hp&gt;1&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [DarkRed]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;707&lt;/x&gt;
+        ///		&lt;y&gt;4&lt;/y&gt;
+        ///		&lt;hp&gt;1&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [DarkRed]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ninthLevel {
+            get {
+                return ResourceManager.GetString("ninthLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream paddleHit {
@@ -451,6 +531,38 @@ namespace BrickBreaker.Properties {
         internal static string secLevel {
             get {
                 return ResourceManager.GetString("secLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                                                                                                                                     &lt;level&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;739&lt;/x&gt;
+        ///		&lt;y&gt;96&lt;/y&gt;
+        ///		&lt;hp&gt;2&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [Goldenrod]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;693&lt;/x&gt;
+        ///		&lt;y&gt;96&lt;/y&gt;
+        ///		&lt;hp&gt;2&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [Goldenrod]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;647&lt;/x&gt;
+        ///		&lt;y&gt;96&lt;/y&gt;
+        ///		&lt;hp&gt;2&lt;/hp&gt;
+        ///		&lt;colour&gt;Color [Goldenrod]&lt;/colour&gt;
+        ///	&lt;/block&gt;
+        ///	&lt;block&gt;
+        ///		&lt;x&gt;601&lt;/x&gt;
+        ///		&lt;y&gt;96&lt;/y&gt;
+        ///		&lt;hp&gt;2&lt;/hp&gt;
+        ///		&lt;c [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string seventhLevel {
+            get {
+                return ResourceManager.GetString("seventhLevel", resourceCulture);
             }
         }
         

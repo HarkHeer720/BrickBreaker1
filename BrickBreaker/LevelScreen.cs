@@ -117,7 +117,7 @@ namespace BrickBreaker
 
         private void levelBox8_Click(object sender, EventArgs e)
         {
-            GameScreen.level = "eighth Level";
+            GameScreen.level = "eigthLevel";
 
             //go to gamescreen
             GameScreen gs = new GameScreen();
