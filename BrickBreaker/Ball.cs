@@ -11,7 +11,6 @@ namespace BrickBreaker
         public int x, xSpeed, size;
         public double ySpeed, y;
         public Color colour;
-        int counter = 0;
 
         public static Random rand = new Random();
 
@@ -27,8 +26,8 @@ namespace BrickBreaker
 
         public void Move()
         {
-            x = x + xSpeed;
-            y = y + ySpeed;
+            x += xSpeed;
+            y += ySpeed;
 
             //ramping up the speed when gravity powerup is active
             if (GameScreen.gravityBool == true)
@@ -74,11 +73,12 @@ namespace BrickBreaker
         public void PaddleCollision(Paddle p, int extraSpeed)
         {
             //creating temporary rectangles
-            Rectangle blockRecLeft = new Rectangle(p.x - 5, p.y + 2, 10, p.height - 4);
-            Rectangle blockRecRight = new Rectangle(p.x + p.width - 5, p.y - 2, 10, p.height - 4);
+            Rectangle blockRecLeft = new Rectangle(p.x - 2, p.y + 2, 4, p.height - 4);
+            Rectangle blockRecRight = new Rectangle(p.x + p.width - 2, p.y - 2, 4, p.height - 4);
             Rectangle blockRecMiddleBottom = new Rectangle(p.x + 2, p.y + p.height, p.width - 4, 1);
             Rectangle blockRecMiddleTop = new Rectangle(p.x + 2, p.y - 1, p.width - 4, 1);
             Rectangle ballRec = new Rectangle(x, Convert.ToInt32(y), size, size);
+            Rectangle paddleRec = new Rectangle(p.x, p.y, p.width, p.height);
 
             int collisonPoint;
             bool checkCollison = false;
@@ -118,25 +118,21 @@ namespace BrickBreaker
                 }
             }
 
-            if (x > p.x && x < p.x + p.width && y > p.y && y < p.y + p.width)
+            if (x < p.x + 1 && x > p.x + p.width - 1 && y > p.y && y < p.y + p.width)
             {
                 checkCollison = true;
             }
+
             //checking if the ball intersects with the sides of the paddle
-            if (((ballRec.IntersectsWith(blockRecLeft) || ballRec.IntersectsWith(blockRecRight)) && (y > p.y - size + 1 || y < p.y + p.height + size - 1)) || checkCollison/* && (x < p.x - size || x > p.x + p.width + size) */)
+            if (((ballRec.IntersectsWith(blockRecLeft) || ballRec.IntersectsWith(blockRecRight)) /*&& (y > p.y - size + 1 || y < p.y + p.height + size - 1))*/ || checkCollison/* && (x < p.x - size || x > p.x + p.width + size) */))
             {
-                if (counter % 20 == 0)
-                if (xSpeed > 0)
-                {
-                    x = p.x;
-                }
-                else if (xSpeed < 0)
-                {
-                    x = p.x + p.width;
-                }
                 xSpeed *= -1;
-                checkCollison = false;
-                counter++;
+            }
+
+            if (ballRec.IntersectsWith(paddleRec))
+            {
+                x = p.x + (p.width / 2);
+                y = p.y - size;
             }
         }
 

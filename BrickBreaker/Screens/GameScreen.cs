@@ -37,7 +37,7 @@ namespace BrickBreaker
         Boolean leftArrowDown, rightArrowDown, spaceDown;
 
         // Game values
-        int lives, counter, extraSpeed, counterInterval, difficulty; //0 is easy, 1 is medium, 2 is hard
+        int lives, counter, extraSpeed, counterInterval;
 
         // Paddle and Ball objects
         Paddle paddle;
@@ -170,20 +170,7 @@ namespace BrickBreaker
             rc_car.Width = paddle.width;
             rc_car.Height = paddle.height;
 
-            counterInterval = 500;
-
-            if (difficulty == 0)
-            {
-                counterInterval = 100;
-            }
-            else if (difficulty == 1)
-            {
-                counterInterval = 300;
-            }
-            else
-            {
-                counterInterval = 500;
-            }
+            counterInterval = 1500;
 
             // start the game engine loop
             gameTimer.Enabled = true;
@@ -257,7 +244,6 @@ namespace BrickBreaker
             {
                 b.Move();
             }
-
 
             // Check for collision with top and side walls
             foreach (Ball b in balls)
