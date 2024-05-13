@@ -162,7 +162,7 @@ namespace BrickBreaker
             // Collision with top wall
             if (y <= 2)
             {
-                y = 0;
+                //y = 0;
                 ySpeed *= -1;
             }
         }

@@ -26,6 +26,7 @@ namespace BrickBreaker
         Image rcCarLeft = Properties.Resources.RC_top_left;
         Image rcCarRight = Properties.Resources.RC_top_right;
         Image ballig = Properties.Resources.toy_story_ball_down1;
+
         //powerup images
         Image gravityimage = Properties.Resources.Gravity;
         Image healthimage = Properties.Resources.Health;
@@ -40,7 +41,8 @@ namespace BrickBreaker
         Boolean leftArrowDown, rightArrowDown, spaceDown;
 
         // Game values
-        int lives, counter, extraSpeed, counterInterval;
+        int lives, counter, extraSpeed;
+        int counterInterval = 200;
 
         // Paddle and Ball objects
         Paddle paddle;
@@ -104,6 +106,7 @@ namespace BrickBreaker
             width = this.Width;
             // make height and width variables
 
+            balls.Clear();
 
             //set life counter
             lives = 3;
@@ -164,8 +167,6 @@ namespace BrickBreaker
             rc_car.Y = paddle.y;
             rc_car.Width = paddle.width;
             rc_car.Height = paddle.height;
-
-            counterInterval = 1500;
 
             // start the game engine loop
             gameTimer.Enabled = true;
